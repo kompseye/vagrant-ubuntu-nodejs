@@ -1,1 +1,1 @@
-# vagrant-ubuntu-nodes
+# vagrant-ubuntu-nodejs
