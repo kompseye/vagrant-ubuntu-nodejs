@@ -1,6 +1,6 @@
 {
   "name": "Vagrant-ubuntu-nodejs",
   "tagline": "",
-  "body": "# vagrant-ubuntu-nodejs\r\n\r\nThis is a [link] (hello)\r\nThis is a [link] (hello.md)\r\n",
+  "body": "Welcome to the vagrant-ubuntu-nodejs wiki!\r\n\r\n# Overview\r\n\r\n# Install\r\n* [vagrant] ()\r\n* [virtualbox] ()\r\n\r\n# Steps\r\n* Clone this repo. Goto vagrant subdirectory.\r\n        git clone https://github.com/kompseye/vagrant-ubuntu-nodejs.git\r\n        cd vagrant-ubuntu-tc\r\n        cd vagrant\r\n        vagrant up\r\n* SSH to locally running ubuntu!\r\n        vagrant ssh\r\n\r\n\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
