@@ -15,4 +15,6 @@ Welcome to the vagrant-ubuntu-nodejs wiki!
 * SSH to locally running ubuntu!
         vagrant ssh
 
+# Links
+* https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
 

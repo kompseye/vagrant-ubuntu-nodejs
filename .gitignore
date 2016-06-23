@@ -35,3 +35,7 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+.cache
+.bash_history
+vagrant/.vagrant
+.viminfo
