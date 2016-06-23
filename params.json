@@ -1,6 +1,6 @@
 {
   "name": "Vagrant-ubuntu-nodejs",
   "tagline": "",
-  "body": "# vagrant-ubuntu-nodejs\r\n\r\nThis is a link [[test | hello]]\r\n\r\nThis is a [link] (www.google.com)\r\n",
+  "body": "# vagrant-ubuntu-nodejs\r\n\r\nThis is a [link] (hello)\r\nThis is a [link] (hello.md)\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
