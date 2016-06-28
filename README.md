@@ -17,6 +17,7 @@ Welcome to the vagrant-ubuntu-nodejs wiki!
         <password is vagrant>
 * nginx is already running at port 80
  * edit your /etc/hosts file
+ * add: 192.168.33.10   vagrant-test.local.com
 * to see nginx served app:: http://vagrant-test.local.com
 * to see nginx default landing page: http://192.168.33.10
 * to see manually run node.js app: 
