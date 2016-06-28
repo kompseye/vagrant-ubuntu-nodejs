@@ -39,15 +39,42 @@
 <li>Clone this repo. Goto vagrant subdirectory.
 
 <ul>
-<li>git clone <a href="https://github.com/kompseye/vagrant-ubuntu-nodejs.git">https://github.com/kompseye/vagrant-ubuntu-nodejs.git</a>
-</li>
-<li>cd vagrant-ubuntu-tc</li>
-<li>cd vagrant</li>
-<li>vagrant up</li>
+<li><code>git clone https://github.com/kompseye/vagrant-ubuntu-nodejs.git</code></li>
+<li><code>cd vagrant-ubuntu-tc</code></li>
+<li><code>cd vagrant</code></li>
+<li><code>vagrant up</code></li>
 </ul>
 </li>
 <li>SSH to locally running ubuntu!
-    vagrant ssh</li>
+    vagrant ssh
+    </li>
+<li>nginx is already running at port 80
+
+<ul>
+<li>edit your /etc/hosts file</li>
+<li>add: 192.168.33.10   vagrant-test.local.com</li>
+</ul>
+</li>
+<li>to see nginx served app:: <a href="http://vagrant-test.local.com">http://vagrant-test.local.com</a>
+</li>
+<li>to see nginx default landing page: <a href="http://192.168.33.10">http://192.168.33.10</a>
+</li>
+<li>to see manually run node.js app: 
+
+<ul>
+<li><code>cd node</code></li>
+<li><code>node main.js</code></li>
+<li>then goto browser: http://localhost:3000</li>
+</ul>
+</li>
+</ul>
+
+<h1>
+<a id="links" class="anchor" href="#links" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Links</h1>
+
+<ul>
+<li><a href="https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions">https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions</a></li>
+<li><a href="https://github.com/osteel/vagrant-blog-tutorial">https://github.com/osteel/vagrant-blog-tutorial</a></li>
 </ul>
 
       <footer class="site-footer">
